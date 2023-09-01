@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(75,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(77,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(98,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(100,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(121,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(123,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(144,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(146,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(167,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(169,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(191,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(193,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(213,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\BRZ\source\repos\testScript\src\main.cpp(215,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+library_x64.lib(auth.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+library_x64.lib(auth.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+library_x64.lib(utils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+library_x64.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\BRZ\source\repos\testScript\x64\Debug\testScript.exe : fatal error LNK1319: 4 mismatches detected
